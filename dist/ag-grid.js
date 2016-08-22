@@ -9212,11 +9212,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (!params.dontFill) {
 	            if (this.fullHeight) {
 	                template =
-	                    '<div style="height: 100%; overflow: auto; position: relative;">' +
-	                        '<div id="west" style="height: 100%; float: left;"></div>' +
-	                        '<div id="east" style="height: 100%; float: right;"></div>' +
-	                        '<div id="center" style="height: 100%;"></div>' +
-	                        '<div id="overlay" style="pointer-events: none; position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>' +
+	                    '<div class="ag-extracted-wrapper">' +
+	                        '<div id="west"></div>' +
+	                        '<div id="east"></div>' +
+	                        '<div id="center"></div>' +
+	                        '<div id="overlay"></div>' +
 	                        '</div>';
 	            }
 	            else {
